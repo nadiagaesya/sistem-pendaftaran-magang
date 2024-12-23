@@ -12,7 +12,10 @@ body {
     font-family: "Roboto Slab", serif;
     background-color: var(--background) !important;
     position: relative; /* Hindari efek samping pada scrolling vertikal */
-    margin: 0; /* Pastikan tidak ada margin di body */
+      margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Mencegah scroll horizontal */
+    overflow-y: auto;   /* Pastikan scroll vertikal hanya muncul bila diperlukan */
 }
 
 /* NAVBAR */
@@ -137,6 +140,7 @@ footer .row .f6 a {
 
 .utama .card .card-body .inname {
       margin-left: 1.2rem;
+      text-indent: 0.5rem;
       border-radius: 5px;
       border-color: black;
       height: 40px;
@@ -154,8 +158,27 @@ footer .row .f6 a {
       float: right;
 }
 
+.utama .kirim:hover {
+      background-color: var(--biru) !important;
+
+}
+
 .utama .card-footer {
       background-color: var(--biru);
       height: 30px;
 }
 
+/* MODAL */
+.modal .modal-footer a {
+      background-color: var(--kuning);
+      border: none;
+      font-size: 1rem;
+}
+
+.modal .modal-title {
+      font-size: 1rem;
+}
+
+.modal .modal-body {
+      font-size: 0.9rem;
+}

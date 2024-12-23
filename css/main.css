@@ -12,7 +12,10 @@ body {
     font-family: "Roboto Slab", serif;
     background-color: var(--background) !important;
     position: relative; /* Hindari efek samping pada scrolling vertikal */
-    margin: 0; /* Pastikan tidak ada margin di body */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Mencegah scroll horizontal */
+    overflow-y: auto;   /* Pastikan scroll vertikal hanya muncul bila diperlukan */
 }
 
 /* Masuk */
@@ -197,7 +200,17 @@ body {
 .modal .modal-footer a {
       background-color: var(--kuning);
       border: none;
+      font-size: 1rem;
 }
+
+.modal .modal-title {
+      font-size: 1rem;
+}
+
+.modal .modal-body {
+      font-size: 0.9rem;
+}
+
 /* NAVBAR */
 .hero .navbar {
       background-color: var(--biru);
@@ -302,12 +315,17 @@ body {
       font-size: 1.1rem;
 }
 
-.point .row .btn {
+.point .row a {
       background-color: var(--kuning);
       border: none;
       padding: 5px 35px;
       margin-top: 2rem;
-      font-size: 1.2rem;
+      font-size: 1rem;
+      color: white;
+}
+
+.point .row a:hover {
+      background-color: var(--biru);
 }
 
 /* Footer */
