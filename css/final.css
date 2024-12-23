@@ -1,0 +1,161 @@
+:root {
+      --biru: #002B6A;
+      --kuning: #F7941E;
+      --abu: #C1BDBD;
+      --abu2: #939393;
+      --background: #ECECEC;
+      --font-family: "Roboto", serif;
+}
+
+/* Reset and general styling */
+body {
+    font-family: "Roboto Slab", serif;
+    background-color: var(--background) !important;
+    position: relative; /* Hindari efek samping pada scrolling vertikal */
+    margin: 0; /* Pastikan tidak ada margin di body */
+}
+
+/* NAVBAR */
+.hero .navbar {
+      background-color: var(--biru);
+}
+
+.hero .spanbps{
+      color: white;
+      text-transform: uppercase;
+      font-size: 1rem;
+      font-weight: 400;
+      font-style: italic;
+}
+
+.hero .navbar-brand {
+      margin-left: -5rem;
+      
+}
+
+.hero .spannama {
+      color: white;
+      font-size: 1rem;
+      float: right;
+      position: absolute;
+      right: 40px; /* Jarak dari kanan */
+      top: 50%; /* Vertikal tengah */
+      transform: translateY(-50%);
+}
+
+.hero .spankembali {
+      color: white;
+      font-size: 1rem;
+      float: right;
+      position: absolute;
+      right:200px; /* Jarak dari kanan */
+      top: 48%; /* Vertikal tengah */
+      transform: translateY(-50%);
+}
+
+.hero .person {
+      margin-top: -0.3rem;
+}
+
+.hero ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Footer */
+footer {
+      background-color: var(--biru);
+      margin-top: 20rem;
+      height: 28%;
+      color: white;
+}
+
+footer .row .f1 span {
+      font-size: 0.9rem;
+      line-height: 1.5;
+}
+
+footer .row .f2 span {
+      font-size: 0.9rem;
+      line-height: 1.5;
+      margin-left: -1rem;
+}
+
+footer .row .f3 span {
+      font-size: 0.9rem;
+      line-height: 1.5;
+      margin-left: -10rem;
+}
+
+footer .row .f2 a {
+      font-size: 0.8rem;
+      text-decoration: none;
+      color: white;
+      margin-left: -1rem;
+}
+
+footer .row .f3 a {
+      font-size: 0.8rem;
+      text-decoration: none;
+      color: white;
+      margin-left: -10rem;
+}
+
+footer .row .f4 a {
+      font-size: 0.8rem;
+      text-decoration: none;
+      color: white;
+      margin-left: -15rem;
+}
+
+footer .row .f5 a {
+      font-size: 0.8rem;
+      text-decoration: none;
+      color: white;
+      margin-left: -6rem;
+}
+
+footer .row .f6 a {
+      font-size: 0.8rem;
+      text-decoration: none;
+      color: white;
+}
+
+/* Utama */
+.utama .card {
+      margin-top: 10rem;
+}
+
+.utama .card-header {
+      text-align: center;
+      background-color: var(--biru);
+      color: white;
+      font-size: 1rem;
+}
+
+.utama .card .card-body .inname {
+      margin-left: 1.2rem;
+      border-radius: 5px;
+      border-color: black;
+      height: 40px;
+      width: 465px;
+}
+
+.utama .card .card-body .infile {
+      margin-left: 6.5rem;
+}
+
+.utama .kirim {
+      background-color: var(--kuning);
+      border: none;
+      padding: 5px 35px;
+      float: right;
+}
+
+.utama .card-footer {
+      background-color: var(--biru);
+      height: 30px;
+}
+

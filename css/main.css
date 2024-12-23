@@ -218,11 +218,21 @@ body {
 
 .hero .spannama {
       color: white;
-      font-size: 1.1rem;
+      font-size: 1rem;
       float: right;
       position: absolute;
       right: 40px; /* Jarak dari kanan */
       top: 50%; /* Vertikal tengah */
+      transform: translateY(-50%);
+}
+
+.hero .spankembali {
+      color: white;
+      font-size: 1rem;
+      float: right;
+      position: absolute;
+      right:200px; /* Jarak dari kanan */
+      top: 48%; /* Vertikal tengah */
       transform: translateY(-50%);
 }
 
@@ -240,6 +250,11 @@ body {
 /* Utama */
 .utama .row {
       margin-top: 5rem;
+}
+
+.utama .card {
+      background-color: var(--biru);
+      border-radius: 15px;
 }
 
 .utama .card #card-masuk {
