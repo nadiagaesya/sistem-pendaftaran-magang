@@ -1,0 +1,258 @@
+:root {
+      --biru: #002B6A;
+      --kuning: #F7941E;
+      --abu: #C1BDBD;
+      --background: #ECECEC;
+      --font-family: "Roboto", serif;
+}
+
+/* Reset and general styling */
+body {
+    font-family: "Roboto Slab", serif;
+    background-color: var(--background) !important;
+    position: relative; /* Hindari efek samping pada scrolling vertikal */
+    margin: 0; /* Pastikan tidak ada margin di body */
+}
+
+/* Masuk */
+.masuk .row {
+      margin-top: 10rem;
+}
+
+.masuk .card {
+      background-color: var(--background);
+      border: none;
+      width: auto;
+      height: 100%;
+}
+
+.masuk .card #card-masuk {
+      background-color: var(--biru);
+      color: white;
+      border-radius: 15px;
+}
+
+.masuk .card #card-masuk h5 {
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 400;
+      margin-top: 1rem;
+}
+
+.masuk .card #card-masuk .span-masuk {
+      margin-left: 1.4rem;
+      font-size: 0.9rem;
+}
+
+.masuk .card #card-masuk .a-daftar {
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+}
+
+.masuk .card #card-masuk .red-star {
+      color: red;
+      font-size: 24px;
+}
+
+.masuk form {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.masuk form #tombol-masuk {
+  background-color: var(--kuning);
+  border: none;
+  color: white;
+  padding: 8px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.masuk .row .logo {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.masuk .row img {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+.masuk .row .tulisan {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+.masuk .row h3 {
+      font-size: 2rem;
+      word-spacing: 10px;
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: bold;
+}
+
+/* DAFTAR */
+.daftar .row {
+      margin-top: 5rem;
+}
+
+.daftar #card-logo {
+      margin-top: 4rem;
+}
+
+.daftar .card {
+      background-color: var(--background);
+      border: none;
+      width: auto;
+      height: 100%;
+}
+
+.daftar .card #card-masuk {
+      background-color: var(--biru);
+      color: white;
+      border-radius: 15px;
+}
+
+.daftar .card #card-masuk h5 {
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 400;
+      margin-top: 1rem;
+}
+
+.daftar .card #card-masuk .span-masuk {
+      margin-left: 1.4rem;
+      font-size: 0.9rem;
+}
+
+.daftar .card #card-masuk .a-daftar {
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+}
+
+.daftar .card #card-masuk .red-star {
+      color: red;
+      font-size: 24px;
+}
+
+.daftar form {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.daftar form #myBtn {
+  background-color: var(--kuning);
+  border: none;
+  color: white;
+  padding: 8px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.daftar .row .logo {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.daftar .row img {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+.daftar .row .tulisan {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+.daftar .row h3 {
+      font-size: 2rem;
+      word-spacing: 10px;
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: bold;
+}
+
+/* MODAL */
+.modal .modal-footer a {
+      background-color: var(--kuning);
+      border: none;
+}
+/* NAVBAR */
+.hero .navbar {
+      background-color: var(--biru);
+}
+
+.hero .spanbps{
+      color: white;
+      text-transform: uppercase;
+      font-size: 1rem;
+      font-weight: 400;
+      font-style: italic;
+}
+
+.hero .spannama {
+      color: white;
+      font-size: 1.1rem;
+      float: right;
+      position: absolute;
+      right: 40px; /* Jarak dari kanan */
+      top: 50%; /* Vertikal tengah */
+      transform: translateY(-50%);
+}
+
+.hero .person {
+      margin-top: -0.3rem;
+}
+
+.hero ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Utama */
+.utama .row {
+      margin-top: 5rem;
+}
+
+.utama .card #card-masuk {
+      background-color: var(--biru);
+      color: white;
+      border-radius: 15px;
+      padding: 3rem;
+}
+
+.utama .card #card-masuk h5 {
+      text-align: justify;
+      font-size: 2rem;
+      font-weight: 500;
+      margin-top: 1rem;
+      margin-bottom: 1rem ;
+}
+
+.utama .card #card-masuk span {
+      font-size: 1.1rem;
+      color: var(--abu);
+      margin-top: 1rem;
+}

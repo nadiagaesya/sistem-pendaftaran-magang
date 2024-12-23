@@ -1,0 +1,143 @@
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Halaman Daftar</title>
+
+      <!-- CSS Internal -->
+      <link rel="stylesheet" href="css/main.css">
+
+      <!-- CSS Bootstrap -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+      <!-- Fonts Google -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet">
+</head>
+
+<body>
+
+      <section id="daftar" class="daftar">
+            <div class="container">
+                  <div class="row d-flex">
+                        <div class="col-sm-5 col-md-5 col-lg-5 mb-3 mb-sm-0">
+                              <div class="card">
+                                    <div class="card-body" id="card-logo">
+                                          <div class="col-sm-3 col-md-3 col-lg-3 mb-4 logo">
+                                                <img src="img/logobps 1.png"
+                                                      alt="Logo Badan Pusat Statistik Provinsi Riau">
+                                          </div>
+                                          <div class="col-sm-3 col-md-3 col-lg-3 tulisan">
+                                                <h3>SISTEM PENDAFTARAN <br> PESERTA MAGANG</h3>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-sm-1 col-md-1 col-lg-1"></div>
+                        <div class="col-sm-6 col-md-6 col-lg-6">
+                              <div class="card">
+                                    <div class="card-body" id="card-masuk">
+                                          <h5 class="card-title">Daftar</h5>
+                                          <form>
+                                                <div class="mb-3">
+                                                      <label for="namalengkapText" class="form-label">Nama Lengkap <span
+                                                                  class="red-star">*</span></label>
+                                                      <input type="text" class="form-control" id="namalengkapText"
+                                                            aria-describedby="text">
+                                                </div>
+                                                <div class="mb-3">
+                                                      <label for="nomorwhatsapp" class="form-label">Nomor Whatsapp <span
+                                                                  class="red-star">*</span></label>
+                                                      <input type="number" class="form-control" id="nomorwhatsapp">
+                                                </div>
+                                                <div class="mb-3">
+                                                      <label for="exampleInputEmail1" class="form-label">Alamat Surel
+                                                            <span class="red-star">*</span></label>
+                                                      <input type="email" class="form-control" id="exampleInputEmail1"
+                                                            aria-describedby="emailHelp">
+                                                </div>
+                                                <div class="mb-3">
+                                                      <label for="exampleInputPassword1" class="form-label">Kata Sandi
+                                                            <span class="red-star">*</span></label>
+                                                      <input type="password" class="form-control"
+                                                            id="exampleInputPassword1">
+                                                </div>
+                                                <!-- Trigger/Open The Modal -->
+                                                <button type="submit" class="btn btn-primary" id="myBtn">Daftar</button>
+                                          </form>
+                                          <span class="span-masuk">Sudah memiliki akun? <a href="index.html"
+                                                      class="a-daftar">Masuk</a></span>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </section>
+
+      <section>
+            <div id="myModal" class="modal" tabindex="-1">
+                  <div class="modal-dialog">
+                        <div class="modal-content">
+                              <div class="modal-header">
+                                    <h5 class="modal-title">Daftar Akun Berhasil</h5>
+                                    <span type="button" class="btn-close" data-bs-dismiss="modal"
+                                          aria-label="Close"></span>
+                              </div>
+                              <div class="modal-body">
+                                    <p>Silahkan Melakukan Login Kembali</p>
+                              </div>
+                              <div class="modal-footer">
+                                    <a href="index.html" type="button" class="btn btn-primary">Oke</a>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </section>
+
+
+
+      <!-- JS Bootsrap -->
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+            integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+            crossorigin="anonymous"></script>
+
+      <!-- JS Modal -->
+      <script>
+            // Get the modal
+            var modal = document.getElementById("myModal");
+
+            // Get the button that opens the modal
+            var btn = document.getElementById("myBtn");
+
+            // Get the <span> element that closes the modal
+            var span = document.querySelector(".btn-close");
+
+            // When the user clicks the button, open the modal 
+            btn.onclick = function (event) {
+                  event.preventDefault(); // Mencegah form submit
+                  modal.style.display = "block"; // Tampilkan modal
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function () {
+                  modal.style.display = "none";
+            }
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function (event) {
+                  if (event.target == modal) {
+                        modal.style.display = "none";
+                  }
+            }
+
+      </script>
+</body>
+
+</html>
