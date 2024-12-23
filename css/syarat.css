@@ -126,59 +126,35 @@ footer .row .f6 a {
       color: white;
 }
 
-/* MODAL */
-.modal .modal-footer a {
-      background-color: var(--kuning);
-      border: none;
-      font-size: 1rem;
-}
-
-.modal .modal-title {
-      font-size: 1rem;
-}
-
-.modal .modal-body {
-      font-size: 0.9rem;
-}
-
 /* Utama */
-.utama .card {
-      margin-top: 10rem;
+.utama #row1 {
+      margin-top: 5rem;
 }
 
-.utama .card-header {
-      text-align: center;
+.utama #row1 .card-header {
       background-color: var(--biru);
       color: white;
+      text-align: center;
       font-size: 1rem;
 }
 
-.utama .card .card-body .inname {
-      margin-left: 1.2rem;
-      text-indent: 0.5rem;
-      border-radius: 5px;
-      border-color: black;
-      height: 40px;
-      width: 465px;
-}
-
-.utama .card .card-body .infile {
-      margin-left: 6.5rem;
-}
-
-.utama .kirim {
-      background-color: var(--kuning);
-      border: none;
-      padding: 5px 35px;
-      float: right;
-}
-
-.utama .kirim:hover {
-      background-color: var(--biru) !important;
-
-}
-
-.utama .card-footer {
+.utama #row1 .card-footer {
       background-color: var(--biru);
-      height: 30px;
+      height: 2rem;
+}
+
+.utama .row {
+      padding: 0.5rem;
+}
+
+.utama .card-body .row h3 {
+      color: var(--biru);
+      font-weight: bold;
+      font-size: 1.2rem;
+}
+
+.utama .card-body li {
+      color: var(--biru);
+      font-weight: 450;
+      font-size: 1rem;
 }

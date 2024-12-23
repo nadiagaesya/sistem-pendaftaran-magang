@@ -12,7 +12,7 @@ body {
     font-family: "Roboto Slab", serif;
     background-color: var(--background) !important;
     position: relative; /* Hindari efek samping pada scrolling vertikal */
-      margin: 0;
+    margin: 0;
     padding: 0;
     overflow-x: hidden; /* Mencegah scroll horizontal */
     overflow-y: auto;   /* Pastikan scroll vertikal hanya muncul bila diperlukan */
@@ -142,43 +142,46 @@ footer .row .f6 a {
 }
 
 /* Utama */
-.utama .card {
-      margin-top: 10rem;
+.utama .row {
+      margin-top: 3rem;
 }
 
-.utama .card-header {
+.utama h3 {
+      margin-top: 2rem;
       text-align: center;
-      background-color: var(--biru);
-      color: white;
-      font-size: 1rem;
+      font-size: 2rem;
+      color: var(--biru);
+      font-weight: 500;
 }
 
-.utama .card .card-body .inname {
-      margin-left: 1.2rem;
-      text-indent: 0.5rem;
+.utama .row form .form-control {
+      border: 1px solid black;
       border-radius: 5px;
-      border-color: black;
-      height: 40px;
-      width: 465px;
+      width: 90%;
 }
 
-.utama .card .card-body .infile {
-      margin-left: 6.5rem;
-}
-
-.utama .kirim {
+.utama .row form button,
+.utama .row form a {
       background-color: var(--kuning);
       border: none;
-      padding: 5px 35px;
+      color: white;
+      padding: 8px 30px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      margin-top: 5rem;
       float: right;
 }
 
-.utama .kirim:hover {
-      background-color: var(--biru) !important;
-
+.utama .row form button:hover {
+      background-color: var(--biru);
 }
 
-.utama .card-footer {
-      background-color: var(--biru);
-      height: 30px;
+.utama .row form label {
+      font-size: 1rem;
+      color: var(--biru);
+      font-weight: 500;
 }

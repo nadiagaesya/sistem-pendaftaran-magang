@@ -1,0 +1,274 @@
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Halaman Logbook</title>
+
+      <!-- CSS Internal -->
+      <link rel="stylesheet" href="css/logbook.css">
+
+      <!-- CSS Bootstrap -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+      <!-- Fonts Google -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet">
+</head>
+
+<body>
+
+      <!-- Navbar -->
+      <section id="hero" class="hero">
+            <nav class="navbar navbar-expand-lg">
+                  <div class="container">
+                        <a class="navbar-brand" href="#"><img src="img/logobps 1.png" alt="Logo BPS Provinsi Riau"
+                                    width="58" height="53"></a>
+                        <span class="spanbps">Badan Pusat Statistik <br> Provinsi Riau</span>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                          <a href="beranda.html"><span class="spankembali">Kembali</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                          <span class="spannama">Tiara Andini <img src="img/person.png" alt="Profile"
+                                                      width="35" height="35" class="person"></span>
+                                    </li>
+                        </div>
+            </nav>
+            </div>
+      </section>
+
+      <!-- Main -->
+      <section id="utama" class="utama">
+            <div class="container">
+                  <div class="row">
+                        <div class="col-sm-2 col-md-2 col-lg-2"></div>
+                        <div class="col-sm-8 col-md-8 col-lg-8">
+                              <div class="card">
+                                    <div class="card-header">
+                                          Tiara Andini silahkan isi logbook harian anda!
+                                    </div>
+                                    <div class="card-body">
+                                          <form>
+                                                <div class="row" id="r1">
+                                                      <div class="col-sm-2 col-md-2 col-lg-2">
+                                                            <label for="fname">Nama Lengkap</label>
+                                                      </div>
+                                                      <div class="col-sm-10 col-md-10 col-lg-10">
+                                                            <input class="form-contol" type="text" id="fname"
+                                                                  name="fname" value="Tiara Andini">
+                                                      </div>
+                                                </div>
+
+                                                <br>
+
+                                                <div class="row" id="r2">
+                                                      <div class="col-sm-2 col-md-2 col-lg-2">
+                                                            <label for="fpembimbing">Pembimbing Lapangan</label>
+                                                      </div>
+                                                      <div class="col-sm-10 col-md-10 col-lg-10">
+                                                            <select class="form-select"
+                                                                  aria-label="Default select example">
+                                                                  <option selected>Pilih Pembimbing</option>
+                                                                  <option value="1">Bpk. Dahliyus</option>
+                                                                  <option value="2">Bpk. Irsan</option>
+                                                                  <option value="3">Bpk. Edi Susilo</option>
+                                                            </select></label>
+                                                      </div>
+                                                </div>
+
+                                                <br>
+
+                                                <div class="row" id="r3">
+                                                      <div class="col-sm-2 col-md-2 col-lg-2">
+                                                            <label for="fhari">Hari</label>
+                                                      </div>
+                                                      <div class="col-sm-10 col-md-10 col-lg-10">
+                                                            <select class="form-select"
+                                                                  aria-label="Default select example">
+                                                                  <option selected>Pilih</option>
+                                                                  <option value="1">Senin</option>
+                                                                  <option value="2">Selasa</option>
+                                                                  <option value="3">Rabu</option>
+                                                                  <option value="4">Kamis</option>
+                                                                  <option value="5">Jumat</option>
+                                                            </select></label>
+                                                      </div>
+                                                </div>
+
+                                                <br>
+
+                                                <div class="row" id="r4">
+                                                      <div class="col-sm-2 col-md-2 col-lg-2">
+                                                            <label for="fdate">Tanggal</label>
+                                                      </div>
+                                                      <div class="col-sm-10 col-md-10 col-lg-10">
+                                                            <input class="form-contol" type="date" id="fdate"
+                                                                  name="fdate" value="Tiara Andini">
+                                                      </div>
+                                                </div>
+
+                                                <br>
+
+                                                <div class="row" id="r5">
+                                                      <div class="col-sm-2 col-md-2 col-lg-2">
+                                                            <label for="furaian">Uraian Kegiatan</label>
+                                                      </div>
+                                                      <div class="col-sm-10 col-md-10 col-lg-10">
+                                                            <input class="form-contol" type="text" id="furaian"
+                                                                  name="furaian">
+                                                      </div>
+                                                </div>
+                                                <br>
+                                                <br>
+                                                <button type="submit" class="btn btn-primary" id="myBtn">Kirim</button>
+                                                <a class="btn btn-primary" href="#">Daftar Logbook</a>
+                                          </form>
+                                    </div>
+                                    <div class="card-footer text-body-secondary">
+
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-sm-2 col-md-2 col-lg-2"></div>
+                  </div>
+            </div>
+      </section>
+
+      <!-- MODAL -->
+      <section>
+            <div id="myModal" class="modal" tabindex="-1">
+                  <div class="modal-dialog">
+                        <div class="modal-content">
+                              <div class="modal-header">
+                                    <h5 class="modal-title">Berhasil</h5>
+                                    <span type="button" class="btn-close" data-bs-dismiss="modal"
+                                          aria-label="Close"></span>
+                              </div>
+                              <div class="modal-body">
+                                    <p>Terimakasih sudah mengisi logbook hari ini!</p>
+                              </div>
+                              <div class="modal-footer">
+                                    <a href="logbook.html" type="button" class="btn btn-primary">Oke</a>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </section>
+
+
+      <!-- Footer -->
+      <footer>
+            <div class="container">
+                  <hr>
+                  <div class="row">
+                        <div class="col-sm-3 col-md-3 col-lg-3 f1">
+                              <span>Badan Pusat Statistik Provinsi Riau (Statistics of Riau Province)Jl. Pattimura No.
+                                    12 Pekanbaru - Riau Indonesia</span>
+                              <br>
+                              <br>
+                              <span>Telp (62-761) 23042</span>
+                              <br>
+                              <span>Faks (62-761) 21336</span>
+                              <br>
+                              <span>Mailbox : riau@bps.go.id</span>
+                              <br>
+                        </div>
+                        <div class="col-sm-3 col-md-3 col-lg-3 f2">
+                              <b><span>Tentang Kami</span></b>
+                              <br>
+                              <br>
+                              <a href="#">Profil BPS</a>
+                              <br>
+                              <br>
+                              <a href="#">PPID</a>
+                        </div>
+                        <div class="col-sm-3 col-md-3 col-lg-3 f3">
+                              <b><span>Tautan Lainnya</span></b>
+                              <br>
+                              <br>
+                              <a href="#">ASEAN Stats</a>
+                              <br>
+                              <br>
+                              <a href="#">Forum Masyarakat Statistik</a>
+                        </div>
+                        <div class="col-sm-1 col-md-1 col-lg-1 f4">
+                              <b><span></span></b>
+                              <br>
+                              <br>
+                              <a href="#">Reformasi Birokrasi</a>
+                              <br>
+                              <br>
+                              <a href="#">Layanan Pengadaan Secara Elektronik</a>
+                        </div>
+                        <div class="col-sm-1 col-md-1 col-lg-1 f5">
+                              <b><span></span></b>
+                              <br>
+                              <br>
+                              <a href="#">Politeknik Statistika STIS</a>
+                              <br>
+                              <br>
+                              <a href="#">Pusdiklat BPS</a>
+                        </div>
+                        <div class="col-sm-1 col-md-1 col-lg-1 f6">
+                              <b><span></span></b>
+                              <br>
+                              <br>
+                              <a href="#">JDIH BPS</a>
+
+                        </div>
+                  </div>
+
+            </div>
+            <div class="row text-center" id="barisdua">
+                  <div class="col-sm-12 col-md-12 col-lg-12">
+                        <small class="block">&copy; 2024. All Rights Reserved. By @nadiagaesyaa</small>
+                  </div>
+            </div>
+      </footer>
+
+      <!-- JS Bootsrap -->
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+            integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+            crossorigin="anonymous"></script>
+
+      <!-- JS Modal -->
+      <script>
+            // Get the modal
+            var modal = document.getElementById("myModal");
+
+            // Get the button that opens the modal
+            var btn = document.getElementById("myBtn");
+
+            // Get the <span> element that closes the modal
+            var span = document.querySelector(".btn-close");
+
+            // When the user clicks the button, open the modal 
+            btn.onclick = function (event) {
+                  event.preventDefault(); // Mencegah form submit
+                  modal.style.display = "block"; // Tampilkan modal
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function () {
+                  modal.style.display = "none";
+            }
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function (event) {
+                  if (event.target == modal) {
+                        modal.style.display = "none";
+                  }
+            }
+
+      </script>
+</body>
+
+</html>
