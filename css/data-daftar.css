@@ -1,0 +1,190 @@
+:root {
+      --biru: #002B6A;
+      --kuning: #F7941E;
+      --abu: #C1BDBD;
+      --abu2: #939393;
+      --background: #ECECEC;
+      --font-family: "Roboto", serif;
+}
+
+/* Reset and general styling */
+body {
+    font-family: "Roboto Slab", serif;
+    background-color: var(--background) !important;
+    position: relative; /* Hindari efek samping pada scrolling vertikal */
+      margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Mencegah scroll horizontal */
+    overflow-y: auto;   /* Pastikan scroll vertikal hanya muncul bila diperlukan */
+}
+
+/* NAVBAR */
+.hero .navbar {
+      background-color: var(--biru);
+}
+
+.hero .spanbps{
+      color: white;
+      text-transform: uppercase;
+      font-size: 1rem;
+      font-weight: 400;
+      font-style: italic;
+}
+
+.hero .navbar-brand {
+      margin-left: -5rem;
+      
+}
+
+.hero .spannama {
+      color: white;
+      font-size: 1rem;
+      float: right;
+      position: absolute;
+      right: 40px; /* Jarak dari kanan */
+      top: 50%; /* Vertikal tengah */
+      transform: translateY(-50%);
+}
+
+.hero .spankembali {
+      color: white;
+      font-size: 1rem;
+      float: right;
+      position: absolute;
+      right:200px; /* Jarak dari kanan */
+      top: 48%; /* Vertikal tengah */
+      transform: translateY(-50%);
+}
+
+.hero .person {
+      margin-top: -0.3rem;
+}
+
+.hero ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Utama */
+.utama .row {
+      margin-top: 5rem;
+}
+
+.utama .card {
+      background-color: var(--biru);
+      border-radius: 15px;
+}
+
+.utama .card #card-masuk {
+      background-color: var(--biru);
+      color: white;
+      border-radius: 15px;
+      padding: 3rem;
+}
+
+.utama .card #card-masuk h5 {
+      text-align: justify;
+      font-size: 2rem;
+      font-weight: 500;
+      margin-top: 1rem;
+      margin-bottom: 1rem ;
+}
+
+.utama .card #card-masuk span {
+      font-size: 1.1rem;
+      color: var(--abu);
+      margin-top: 1rem;
+}
+
+/* Point */
+.point .row {
+      margin-top: 5rem;
+}
+
+.point .row table thead th {
+      background-color: var(--biru) !important;
+      color: white;
+      font-weight: 400;
+      font-size: 0.9rem;
+      padding: 1rem;
+}
+
+.point .row table tbody td {
+      color: var(--abu2);
+      font-weight: 400;
+      font-size: 0.9rem;
+      padding: 1rem;
+}
+
+.point .row a {
+      background-color: var(--kuning);
+      border: none;
+      padding: 5px 35px;
+      font-size: 1rem;
+      color: white;
+}
+
+.point .row a:hover {
+      background-color: var(--biru);
+}
+
+/* Footer */
+footer {
+      background-color: var(--biru);
+      margin-top: 20rem;
+      height: auto;
+      color: white;
+}
+
+footer .row .f1 span {
+      font-size: 0.9rem;
+      line-height: 1.5;
+}
+
+footer .row .f2 span {
+      font-size: 0.9rem;
+      line-height: 1.5;
+      margin-left: -1rem;
+}
+
+footer .row .f3 span {
+      font-size: 0.9rem;
+      line-height: 1.5;
+      margin-left: -10rem;
+}
+
+footer .row .f2 a {
+      font-size: 0.8rem;
+      text-decoration: none;
+      color: white;
+      margin-left: -1rem;
+}
+
+footer .row .f3 a {
+      font-size: 0.8rem;
+      text-decoration: none;
+      color: white;
+      margin-left: -10rem;
+}
+
+footer .row .f4 a {
+      font-size: 0.8rem;
+      text-decoration: none;
+      color: white;
+      margin-left: -15rem;
+}
+
+footer .row .f5 a {
+      font-size: 0.8rem;
+      text-decoration: none;
+      color: white;
+      margin-left: -6rem;
+}
+
+footer .row .f6 a {
+      font-size: 0.8rem;
+      text-decoration: none;
+      color: white;
+}

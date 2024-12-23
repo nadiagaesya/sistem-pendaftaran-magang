@@ -6,7 +6,7 @@
       <title>Halaman Beranda</title>
 
       <!-- CSS Internal -->
-      <link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" href="css/data-daftar.css">
 
       <!-- CSS Bootstrap -->
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -31,6 +31,9 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                     <li class="nav-item">
+                                          <a href="beranda.html"><span class="spankembali">Kembali</span></a>
+                                    </li>
+                                    <li class="nav-item">
                                           <span class="spannama">Tiara Andini <img src="img/person.png" alt="Profile"
                                                       width="35" height="35" class="person"></span>
                                     </li>
@@ -49,10 +52,10 @@
                               <div class="card">
                                     <div class="card-body" id="card-masuk">
                                           <h5 class="card-title">Halo, Tiara Andini</h5>
-                                          <span>Selamat anda telah berhasil masuk sebagai Username Akun</span>
+                                          <span>Kamu telah berhasil melakukan pendaftaran magang di Badan Pusat
+                                                Statistik Provinsi Riau</span>
                                           <br>
-                                          <span>Ayo ciptakan pengalaman magang yang baik di Badan Pusat Statistik
-                                                Provinsi Riau</span>
+                                          <span>Silahkan tunggu dan lihat Status Pendaftaran anda disini!</span>
                                     </div>
                               </div>
                         </div>
@@ -66,57 +69,41 @@
       <section id="point" class="point">
             <div class="container">
                   <div class="row d-flex">
-                        <div class="col-sm-3 col-md-3 col-lg-3 mb-3 mb-sm-0">
-                              <div class="card">
-                                    <div class="card-header">
-                                          Syarat Magang
-                                    </div>
-                                    <div class="card-body">
-                                          <p class="card-text">Silahkan lihat syarat magang disini.</p>
-                                          <a href="syarat-magang.html" class="btn">Lihat</a>
-                                    </div>
-                                    <div class="card-footer text-body-secondary">
-                                    </div>
-                              </div>
-                        </div>
-                        <div class="col-sm-3 col-md-3 col-lg-3">
-                              <div class="card">
-                                    <div class="card-header">
-                                          Daftar Magang
-                                    </div>
-                                    <div class="card-body">
-                                          <p class="card-text">Silahkan daftar magang disini.</p>
-                                          <a href="daftar-magang.html" class="btn">Daftar</a>
-                                    </div>
-                                    <div class="card-footer text-body-secondary">
-                                    </div>
-                              </div>
-                        </div>
-                        <div class="col-sm-3 col-md-3 col-lg-3">
-                              <div class="card">
-                                    <div class="card-header">
-                                          Logbook
-                                    </div>
-                                    <div class="card-body">
-                                          <p class="card-text">Jangan lupa isi Logbook disini.</p>
-                                          <a href="logbook.html" class="btn">Logbook</a>
-                                    </div>
-                                    <div class="card-footer text-body-secondary">
-                                    </div>
-                              </div>
-                        </div>
-                        <div class="col-sm-3 col-md-3 col-lg-3">
-                              <div class="card">
-                                    <div class="card-header">
-                                          Final Projek
-                                    </div>
-                                    <div class="card-body">
-                                          <p class="card-text">Silahkan unggah projek disini.</p>
-                                          <a href="final-project.html" class="btn">Final</a>
-                                    </div>
-                                    <div class="card-footer text-body-secondary">
-                                    </div>
-                              </div>
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+                              <table class="table">
+                                    <thead>
+                                          <tr>
+                                                <th scope="col">No</th>
+                                                <th scope="col">Nama Lengkap</th>
+                                                <th scope="col">NIM/NISN</th>
+                                                <th scope="col">Whatsapp</th>
+                                                <th scope="col">Asal</th>
+                                                <th scope="col">Jurusan</th>
+                                                <th scope="col">Alamat</th>
+                                                <th scope="col">Tanggal Masuk</th>
+                                                <th scope="col">Tanggal Keluar</th>
+                                                <th scope="col">Surat Pengantar</th>
+                                                <th scope="col">Status</th>
+                                                <th scope="col">Aksi</th>
+                                          </tr>
+                                    </thead>
+                                    <tbody>
+                                          <tr>
+                                                <td>1.</th>
+                                                <td>Tiara Andini</td>
+                                                <td>20098767</td>
+                                                <td>081266789756</td>
+                                                <td>UIR</td>
+                                                <td>IT</td>
+                                                <td>Air Dingin</td>
+                                                <td>02/01/2022</td>
+                                                <td>02/02/2022</td>
+                                                <td>Tiara_Andini.pdf</td>
+                                                <td>Diterima</td>
+                                                <td><a href="#" class="btn">Lihat</a></td>
+                                          </tr>
+                                    </tbody>
+                              </table>
                         </div>
                   </div>
             </div>
@@ -180,16 +167,16 @@
                               <br>
                               <br>
                               <a href="#">JDIH BPS</a>
-                              
+
                         </div>
                   </div>
 
             </div>
-                  <div class="row text-center" id="barisdua"> 
-                        <div class="col-sm-12 col-md-12 col-lg-12">
+            <div class="row text-center" id="barisdua">
+                  <div class="col-sm-12 col-md-12 col-lg-12">
                         <small class="block">&copy; 2024. All Rights Reserved. By @nadiagaesyaa</small>
-                        </div>
                   </div>
+            </div>
       </footer>
 
       <!-- JS Bootsrap -->
