@@ -2,6 +2,7 @@
       --biru: #002B6A;
       --kuning: #F7941E;
       --abu: #C1BDBD;
+      --abu2: #939393;
       --background: #ECECEC;
       --font-family: "Roboto", serif;
 }
@@ -210,6 +211,11 @@ body {
       font-style: italic;
 }
 
+.hero .navbar-brand {
+      margin-left: -5rem;
+      
+}
+
 .hero .spannama {
       color: white;
       font-size: 1.1rem;
@@ -255,4 +261,95 @@ body {
       font-size: 1.1rem;
       color: var(--abu);
       margin-top: 1rem;
+}
+
+/* Point */
+.point .row {
+      margin-top: 5rem;
+}
+
+.point .row .card {
+      text-align: center;
+      height: 110%;
+      width: 100%;
+}
+
+.point .row .card-header,
+.point .row .card-footer {
+      background-color: var(--biru);
+      color: white;
+      font-size: 1.2rem;
+}
+
+.point .row .card-text {
+      color: var(--abu2);
+      margin-top: 2rem;
+      font-size: 1.1rem;
+}
+
+.point .row .btn {
+      background-color: var(--kuning);
+      border: none;
+      padding: 5px 35px;
+      margin-top: 2rem;
+      font-size: 1.2rem;
+}
+
+/* Footer */
+footer {
+      background-color: var(--biru);
+      margin-top: 20rem;
+      height: 28%;
+      color: white;
+}
+
+footer .row .f1 span {
+      font-size: 0.9rem;
+      line-height: 1.5;
+}
+
+footer .row .f2 span {
+      font-size: 0.9rem;
+      line-height: 1.5;
+      margin-left: -1rem;
+}
+
+footer .row .f3 span {
+      font-size: 0.9rem;
+      line-height: 1.5;
+      margin-left: -10rem;
+}
+
+footer .row .f2 a {
+      font-size: 0.8rem;
+      text-decoration: none;
+      color: white;
+      margin-left: -1rem;
+}
+
+footer .row .f3 a {
+      font-size: 0.8rem;
+      text-decoration: none;
+      color: white;
+      margin-left: -10rem;
+}
+
+footer .row .f4 a {
+      font-size: 0.8rem;
+      text-decoration: none;
+      color: white;
+      margin-left: -15rem;
+}
+
+footer .row .f5 a {
+      font-size: 0.8rem;
+      text-decoration: none;
+      color: white;
+      margin-left: -6rem;
+}
+
+footer .row .f6 a {
+      font-size: 0.8rem;
+      text-decoration: none;
+      color: white;
 }
