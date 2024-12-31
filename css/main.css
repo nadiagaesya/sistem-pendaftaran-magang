@@ -211,7 +211,7 @@ body {
       font-size: 0.9rem;
 }
 
-/* NAVBAR */
+/* HERO */
 .hero .navbar {
       background-color: var(--biru);
       width: 100%;
@@ -226,7 +226,7 @@ body {
 .hero .navbar .spanbps{
       color: white;
       text-transform: uppercase;
-      font-size: 1rem;
+      font-size: 1.1rem;
       font-weight: 400;
       font-style: italic;
       margin-left: -1rem;
@@ -271,23 +271,34 @@ body {
   display: flex;
 }
 
-/* Utama */
-.utama .row {
+.hero .navbar .navbar-content a {
+      font-size: 1.1rem;
+}
+
+ /* UTAMA */
+ .utama .row {
       margin-top: 5rem;
 }
 
-.utama .card {
+.utama .row .card {
+      width: 100%;
+      height: auto;
+      margin: 0 auto; /* Pusatkan secara horizontal */
+      display: flex;
+      flex-direction: column; /* Mengatur elemen di dalam card secara vertikal */
+      justify-content: center; /* Pusatkan konten di dalam card secara vertikal */
+      align-items: center; /* Pusatkan konten secara horizontal */
       background-color: var(--biru);
       border-radius: 15px;
 }
 
-.utama .card #card-masuk {
+.utama .row .card #card-masuk {
       color: white;
       border-radius: 15px;
       padding: 3rem;
 }
 
-.utama .card #card-masuk h5 {
+.utama .row .card #card-masuk .card-title {
       text-align: justify;
       font-size: 2rem;
       font-weight: 500;
@@ -295,50 +306,56 @@ body {
       margin-bottom: 1rem ;
 }
 
-.utama .card #card-masuk span {
-      font-size: 1.1rem;
+.utama .row .card #card-masuk span {
+      font-size: 1rem;
       color: var(--abu);
       margin-top: 1rem;
 }
 
-/* Point */
+/* POINT */
 .point .row {
       margin-top: 5rem;
 }
 
 .point .row .card {
-      text-align: center;
-      height: 110%;
       width: 100%;
+      height: 100%;
+      margin: 0 auto; /* Pusatkan secara horizontal */
+      display: flex;
+      flex-direction: column; /* Mengatur elemen di dalam card secara vertikal */
+      justify-content: center; /* Pusatkan konten di dalam card secara vertikal */
+      align-items: center; /* Pusatkan konten secara horizontal */
+        text-align: center;
 }
 
 .point .row .card-header,
-.point .row .card-footer {
+.point .row .card-footer{
       background-color: var(--biru);
       color: white;
+      width: 100%;     
       font-size: 1.1rem;
 }
 
-.point .row .card-text {
+.point .row .card-body .card-text {
       color: var(--abu2);
       margin-top: 2rem;
-      font-size: 1rem;
+      font-size: 1.1rem;
 }
 
-.point .row a {
+.point .row .card-body a {
       background-color: var(--kuning);
       border: none;
-      padding: 5px 35px;
-      margin-top: 2rem;
-      font-size: 1rem;
       color: white;
+      font-size: 1.1rem;
+      padding: 6px 15px;
+      margin-top: 1rem;
 }
 
-.point .row a:hover {
+.point .row .card-body a:hover {
       background-color: var(--biru);
 }
 
-/* Footer */
+/* FOOTER */
 footer {
       background-color: var(--biru);
       margin-top: 20rem;
@@ -347,52 +364,51 @@ footer {
 }
 
 footer .row .f1 span {
-      font-size: 0.9rem;
-      line-height: 1.5;
+      font-size: 1rem;
 }
 
-footer .row .f2 span {
-      font-size: 0.9rem;
-      line-height: 1.5;
-      margin-left: -1rem;
-}
-
-footer .row .f3 span {
-      font-size: 0.9rem;
-      line-height: 1.5;
-      margin-left: -10rem;
-}
-
+footer .row .f2 span,
 footer .row .f2 a {
-      font-size: 0.8rem;
+      font-size: 1rem;
+      margin-left: -0.1rem;
       text-decoration: none;
       color: white;
-      margin-left: -1rem;
 }
 
+footer .row .f3 span,
 footer .row .f3 a {
-      font-size: 0.8rem;
+      font-size: 1rem;
+      margin-left: -5rem;
       text-decoration: none;
       color: white;
-      margin-left: -10rem;
 }
 
+footer .row .f4 span,
 footer .row .f4 a {
-      font-size: 0.8rem;
+      font-size: 1rem;
+      margin-left: -8rem;
       text-decoration: none;
       color: white;
-      margin-left: -15rem;
 }
 
+footer .row .f5 span,
 footer .row .f5 a {
-      font-size: 0.8rem;
+      font-size: 1rem;
+      margin-left: auto;
       text-decoration: none;
       color: white;
-      margin-left: -6rem;
 }
 
+footer .row .f6 span,
 footer .row .f6 a {
-      font-size: 0.8rem;
+      font-size: 1rem;
+      margin-left: auto;
       text-decoration: none;
       color: white;
+}
+
+footer .row #small {
+      font-size: 1.2rem;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
 }
