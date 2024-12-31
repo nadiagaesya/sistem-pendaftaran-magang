@@ -1,0 +1,256 @@
+:root {
+      --biru: #002B6A;
+      --kuning: #F7941E;
+      --abu: #C1BDBD;
+      --abu2: #939393;
+      --background: #ECECEC;
+      --font-family: "Roboto", serif;
+}
+
+/* Reset and general styling */
+body {
+    font-family: "Roboto Slab", serif;
+    background-color: var(--background) !important;
+    position: relative; /* Hindari efek samping pada scrolling vertikal */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Mencegah scroll horizontal */
+    overflow-y: auto;   /* Pastikan scroll vertikal hanya muncul bila diperlukan */
+}
+
+/* Media Query (Responsive) */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+/* Masuk */
+.masuk .row .card #card-logo {
+      margin-top: -9rem;
+}
+
+.masuk .row .card #card-logo img {
+      width: 7rem;
+}
+
+.masuk .row .card #card-logo .tulisan h3{
+      font-size: 1rem;
+      letter-spacing: -0.1rem;
+      margin-top: -2rem;
+}
+
+.masuk .row .card #card-masuk {
+      width: 90%;
+      margin-left: 1.2rem;
+      margin-bottom: 5rem;
+}
+
+.masuk .row .card #card-masuk h5 {
+      font-size: 1.3rem;
+}
+
+.masuk .row .card #card-masuk form {
+      margin-left: 1rem;
+
+}
+
+.masuk .row .card form .form-label {
+      font-size: 0.8rem;
+}
+
+.masuk .row .card #card-masuk form input {
+      width: 15rem;
+      height: 2.2rem;
+}
+
+.masuk .row .card #card-masuk .span-masuk {
+      font-size: 0.8rem;
+}
+
+.masuk .row .card #card-masuk #tombol-masuk {
+      font-size: 0.8rem;
+      padding: 5px 10px;
+}
+
+/* Daftar */
+.daftar .row .card #card-logo {
+      margin-top: -5rem;
+}
+
+.daftar .row .card #card-logo img {
+      width: 7rem;
+}
+
+.daftar .row .card #card-logo .tulisan h3{
+      font-size: 1rem;
+      letter-spacing: -0.1rem;
+      margin-top: -2rem;
+}
+
+.daftar .row .card #card-masuk {
+      width: 90%;
+      margin-left: 1.2rem;
+      margin-bottom: 10rem;
+}
+
+.daftar .row .card #card-masuk h5 {
+      font-size: 1.3rem;
+}
+
+.daftar .row .card #card-masuk form {
+      margin-left: 1rem;
+
+}
+
+.daftar .row .card #card-masuk form .form-label {
+      font-size: 0.8rem;
+}
+
+.daftar .row .card #card-masuk form input {
+      width: 15rem;
+      height: 2.2rem;
+}
+
+.daftar .row .card #card-masuk .span-masuk {
+      font-size: 0.8rem;
+}
+
+.daftar .row .card #card-masuk button {
+      font-size: 0.8rem;
+      padding: 5px 10px;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+/* Masuk */
+.masuk .row .card #card-logo {
+      margin-top: 8rem;
+}
+
+.masuk .row .card #card-logo img {
+      width: 10rem;
+      margin-left: -1.5rem;
+}
+
+.masuk .row .card #card-logo .tulisan h3{
+      font-size: 1.4rem;
+      letter-spacing: -0.1rem;
+      margin-top: -2rem;
+      /* margin-left: 3rem; */
+}
+
+.masuk .row .card #card-masuk {
+      width: 100%;
+      margin-top: 5rem;
+      margin-left: -1rem;
+}
+
+.masuk .row .card #card-masuk h5 {
+      font-size: 1.5rem;
+}
+
+.masuk .row .card form .form-label {
+      font-size: 0.9rem;
+}
+
+/* Daftar */
+.daftar .row .card #card-logo {
+      margin-top: 8rem;
+}
+
+.daftar .row .card #card-logo img {
+      width: 10rem;
+      margin-left: -1.5rem;
+}
+
+.daftar .row .card #card-logo .tulisan h3{
+      font-size: 1.4rem;
+      letter-spacing: -0.1rem;
+      margin-top: -2rem;
+      /* margin-left: 3rem; */
+}
+
+.daftar .row .card #card-masuk {
+      width: 100%;
+      margin-top: 5rem;
+      margin-left: -1rem;
+}
+
+.daftar .row .card #card-masuk h5 {
+      font-size: 1.5rem;
+}
+
+.daftar .row .card form .form-label {
+      font-size: 0.9rem;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+      /* Masuk */
+.masuk .card #card-logo {
+      margin-top: 8rem;
+}
+
+.masuk .card #card-logo img {
+      width: 10rem;
+      margin-left: -1.5rem;
+}
+
+.masuk .card #card-logo .tulisan h3{
+      font-size: 1.4rem;
+      letter-spacing: -0.1rem;
+      margin-top: -2rem;
+      /* margin-left: 3rem; */
+}
+
+.masuk .card #card-masuk {
+      width: 100%;
+      margin-top: 5rem;
+      margin-left: -1rem;
+}
+
+.masuk .card #card-masuk h5 {
+      font-size: 1.5rem;
+}
+
+.masuk .card form .form-label {
+      font-size: 0.9rem;
+}
+
+      /* Daftar */
+.daftar .card #card-logo {
+      margin-top: 8rem;
+}
+
+.daftar .card #card-logo img {
+      width: 10rem;
+      margin-left: -1.5rem;
+}
+
+.daftar .card #card-logo .tulisan h3{
+      font-size: 1.4rem;
+      letter-spacing: -0.1rem;
+      margin-top: -2rem;
+      /* margin-left: 3rem; */
+}
+
+.daftar .card #card-masuk {
+      width: 100%;
+      margin-top: 5rem;
+      margin-left: -1rem;
+}
+
+.daftar .card #card-masuk h5 {
+      font-size: 1.5rem;
+}
+
+.daftar .card form .form-label {
+      font-size: 0.9rem;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

@@ -214,50 +214,53 @@ body {
 /* NAVBAR */
 .hero .navbar {
       background-color: var(--biru);
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 10px;
 }
 
-.hero .spanbps{
+.hero .navbar .spanbps{
       color: white;
       text-transform: uppercase;
       font-size: 1rem;
       font-weight: 400;
       font-style: italic;
+      margin-left: -1rem;
+      margin-right: auto; /* Memastikan elemen berada di paling kiri */
 }
 
-.hero .navbar-brand {
-      margin-left: -5rem;
-      
+.hero .navbar .logo {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
 }
 
-.hero .spannama {
-      color: white;
-      font-size: 1rem;
-      float: right;
-      position: absolute;
-      right: 40px; /* Jarak dari kanan */
-      top: 50%; /* Vertikal tengah */
-      transform: translateY(-50%);
+.hero .navbar a:hover {
+  color: black;
 }
 
-.hero .spankembali {
-      color: white;
-      font-size: 1rem;
-      float: right;
-      position: absolute;
-      right:200px; /* Jarak dari kanan */
-      top: 48%; /* Vertikal tengah */
-      transform: translateY(-50%);
+/* Hamburger menu styles */
+.hero .hamburger {
+  display: none;
+  font-size: 24px;
+  color: white;
+  background-color: inherit;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-right: 10px;
 }
 
-.hero .person {
-      margin-top: -0.3rem;
+.hero .hamburger:focus {
+  outline: none;
 }
 
-.hero ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+.hero .navbar-content {
+  display: flex;
 }
 
 /* Utama */
@@ -271,7 +274,6 @@ body {
 }
 
 .utama .card #card-masuk {
-      background-color: var(--biru);
       color: white;
       border-radius: 15px;
       padding: 3rem;

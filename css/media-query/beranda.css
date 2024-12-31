@@ -1,0 +1,251 @@
+:root {
+      --biru: #002B6A;
+      --kuning: #F7941E;
+      --abu: #C1BDBD;
+      --abu2: #939393;
+      --background: #ECECEC;
+      --font-family: "Roboto", serif;
+}
+
+/* Reset and general styling */
+body {
+    font-family: "Roboto Slab", serif;
+    background-color: var(--background) !important;
+    position: relative; /* Hindari efek samping pada scrolling vertikal */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Mencegah scroll horizontal */
+    overflow-y: auto;   /* Pastikan scroll vertikal hanya muncul bila diperlukan */
+}
+
+/* Media Query (Responsive) */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+/* HERO */
+.hero .navbar {
+      flex-wrap: wrap; /* Elemen dapat turun ke bawah */
+      justify-content: center; /* Elemen diatur agar berada di tengah */
+      padding: 10px; /* Kurangi padding */
+}
+.hero .navbar .navbar-brand{
+      margin-left: -0.9rem;
+}
+
+.hero .navbar .navbar-brand img {
+      width: 3rem;
+      height: 3rem;
+}
+
+.hero .navbar .spanbps{
+      color: white;
+      text-transform: uppercase;
+      font-size: 0.6rem;
+      font-weight: 400;
+      font-style: italic;
+      margin-left: -1rem;
+      margin-right: auto; /* Memastikan elemen berada di paling kiri */
+}
+
+.hero .navbar-content {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+.hero .navbar-content a {
+      font-size: 0.7rem;
+      line-height: 1px;
+}
+
+.hero .navbar a {
+    float: none;
+    display: block;
+  }
+
+.hero .hamburger {
+    display: block;
+  }
+
+  /* UTAMA */
+.utama .row .card {
+      width: 90%;
+      height: auto;
+      margin: 0 auto; /* Pusatkan secara horizontal */
+      display: flex;
+      flex-direction: column; /* Mengatur elemen di dalam card secara vertikal */
+      justify-content: center; /* Pusatkan konten di dalam card secara vertikal */
+      align-items: center; /* Pusatkan konten secara horizontal */
+      margin-top: -1rem;
+}
+
+.utama .row .card #card-masuk .card-title {
+      font-size: 1.4rem;
+}
+
+.utama .row .card #card-masuk span {
+      font-size: 0.7rem;
+}
+
+/* POINT */
+.point .row .card {
+      width: 70%;
+      height: auto;
+      margin: 0 auto; /* Pusatkan secara horizontal */
+      display: flex;
+      flex-direction: column; /* Mengatur elemen di dalam card secara vertikal */
+      justify-content: center; /* Pusatkan konten di dalam card secara vertikal */
+      align-items: center; /* Pusatkan konten secara horizontal */
+}
+
+.point .row .card-header,
+.point .row .card-footer{
+      width: 100%;     
+      font-size: 0.9rem;
+}
+
+.point .row .card-body .card-text {
+      font-size: 0.8rem;
+}
+
+.point .row .card-body a {
+      font-size: 0.8rem;
+      padding: 6px 15px;
+      margin-top: 1rem;
+}
+
+
+/* FOOTER */
+footer .row .f1 span {
+      font-size: 0.8rem;
+}
+
+footer .row .f2 span,
+footer .row .f2 a {
+      margin-left: -0.1rem;
+}
+
+footer .row .f3 span,
+footer .row .f3 a {
+      margin-left: -0.1rem;
+}
+
+footer .row .f4 span,
+footer .row .f4 a {
+      margin-left: -0.1rem;
+}
+
+footer .row .f5 span,
+footer .row .f5 a {
+      margin-left: -0.1rem;
+}
+
+footer .row .f6 span,
+footer .row .f6 a {
+      margin-left: -0.1rem;
+}
+
+footer {
+      font-size: 0.9rem;
+}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+      .hero .navbar {
+      background-color: var(--biru);
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 10px;
+}
+
+.hero .navbar .spanbps{
+      color: white;
+      text-transform: uppercase;
+      font-size: 1rem;
+      font-weight: 400;
+      font-style: italic;
+      margin-left: -1rem;
+      margin-right: auto; /* Memastikan elemen berada di paling kiri */
+}
+
+.hero .navbar .logo {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.hero .navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.hero .navbar a:hover {
+  color: black;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+.hero .navbar .spanbps{
+      font-size: 0.9rem;
+}
+
+.hero .navbar .navbar-content a {
+      font-size: 0.9rem;
+}
+
+ /* UTAMA */
+.utama .row .card {
+      width: 100%;
+      height: auto;
+      margin: 0 auto; /* Pusatkan secara horizontal */
+      display: flex;
+      flex-direction: column; /* Mengatur elemen di dalam card secara vertikal */
+      justify-content: center; /* Pusatkan konten di dalam card secara vertikal */
+      align-items: center; /* Pusatkan konten secara horizontal */
+}
+
+.utama .row .card #card-masuk .card-title {
+      font-size: 1.5rem;
+}
+
+.utama .row .card #card-masuk span {
+      font-size: 0.8rem;
+}
+
+/* POINT */
+.point .row .card {
+      width: 100%;
+      height: auto;
+      margin: 0 auto; /* Pusatkan secara horizontal */
+      display: flex;
+      flex-direction: column; /* Mengatur elemen di dalam card secara vertikal */
+      justify-content: center; /* Pusatkan konten di dalam card secara vertikal */
+      align-items: center; /* Pusatkan konten secara horizontal */
+}
+
+.point .row .card-header,
+.point .row .card-footer{
+      width: 100%;     
+      font-size: 0.9rem;
+}
+
+.point .row .card-body .card-text {
+      font-size: 0.8rem;
+}
+
+.point .row .card-body a {
+      font-size: 0.8rem;
+      padding: 6px 15px;
+      margin-top: 1rem;
+}
+}
