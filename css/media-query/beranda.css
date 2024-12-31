@@ -63,6 +63,14 @@ body {
     display: block;
   }
 
+  .hero .navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
 .hero .hamburger {
     display: block;
   }
@@ -145,8 +153,10 @@ footer .row .f6 a {
       margin-left: -0.1rem;
 }
 
-footer {
+footer .row #small {
       font-size: 0.9rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
 }
 
 }
@@ -247,5 +257,107 @@ footer {
       font-size: 0.8rem;
       padding: 6px 15px;
       margin-top: 1rem;
+}
+
+/* FOOTER */
+footer .row .f1 span {
+      font-size: 0.6rem;
+}
+
+footer .row .f2 span,
+footer .row .f2 a {
+      font-size: 0.6rem;
+      margin-left: -0.1rem;
+}
+
+footer .row .f3 span,
+footer .row .f3 a {
+      font-size: 0.6rem;
+      margin-left: -5rem;
+}
+
+footer .row .f4 span,
+footer .row .f4 a {
+      font-size: 0.6rem;
+      margin-left: -8rem;
+}
+
+footer .row .f5 span,
+footer .row .f5 a {
+      font-size: 0.6rem;
+      margin-left: auto;
+}
+
+footer .row .f6 span,
+footer .row .f6 a {
+      font-size: 0.6rem;
+      margin-left: auto;
+}
+
+footer .row #small {
+      font-size: 0.8rem;
+      margin-top: 2rem;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+      /* Footer */
+footer {
+      background-color: var(--biru);
+      margin-top: 20rem;
+      height: auto;
+      color: white;
+}
+
+footer .row .f1 span {
+      font-size: 0.9rem;
+      line-height: 1.5;
+}
+
+footer .row .f2 span {
+      font-size: 0.9rem;
+      line-height: 1.5;
+      margin-left: -1rem;
+}
+
+footer .row .f3 span {
+      font-size: 0.9rem;
+      line-height: 1.5;
+      margin-left: -10rem;
+}
+
+footer .row .f2 a {
+      font-size: 0.8rem;
+      text-decoration: none;
+      color: white;
+      margin-left: -1rem;
+}
+
+footer .row .f3 a {
+      font-size: 0.8rem;
+      text-decoration: none;
+      color: white;
+      margin-left: -10rem;
+}
+
+footer .row .f4 a {
+      font-size: 0.8rem;
+      text-decoration: none;
+      color: white;
+      margin-left: -15rem;
+}
+
+footer .row .f5 a {
+      font-size: 0.8rem;
+      text-decoration: none;
+      color: white;
+      margin-left: -6rem;
+}
+
+footer .row .f6 a {
+      font-size: 0.8rem;
+      text-decoration: none;
+      color: white;
 }
 }
